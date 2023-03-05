@@ -1,0 +1,143 @@
+    body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    html,body{margin:0;padding:0;}
+
+
+    header {
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+      }
+      
+      nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+      }
+      
+      nav li {
+        margin-right: 20px;
+      }
+      
+      nav a {
+        color: #333;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      
+      nav a:hover {
+        color: #c42d78;
+      }
+    
+    /* Стилизация секции "hero" */
+    #hero {
+    background-color: #c42d78;
+    color: #fff;
+    text-align: center;
+    padding: 80px;
+    }
+    
+    #hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    }
+    
+    #hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    }
+    
+    .btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #c42d78;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+    .btn:hover {
+    background-color: #c42d78;
+    color: #fff;
+    }
+    
+    /* Стилизация секции "about" */
+    #about {
+    padding: 50px;
+    text-align: center;
+    }
+    
+    #about h2 {
+    font-size: 3em;
+    margin-bottom: 30px;
+    }
+    
+    #about p {
+    font-size: 1.2em;
+    }
+    
+    /* Стилизация секции "products" */
+    #products {
+        background-color: #f1f3f9;
+        padding: 20px;
+        text-align: center;
+    }
+    a {text-decoration: none;}
+    #products h2 {
+    font-size: 3em;
+    margin-bottom: 30px;
+    }
+    
+    #products ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    }
+    
+    #products li {
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    flex-basis: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold; 
+    font-size: 2em;
+    }
+    
+    #products li img {
+        max-width: 280px;
+        height: 260px;
+        border-radius: 40%;
+        margin-bottom: 20px;
+    }
+    
+    #products li h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    }
+    
+    #products li p {
+    font-size: 1em;
+    }
+    
+    /* Стилизация футера */
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 30px;        
+    }
+    
+    footer p {
+        font-size: 1.5em;
+    }
